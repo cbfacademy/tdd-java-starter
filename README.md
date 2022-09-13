@@ -42,6 +42,87 @@ If you are using a Unix based system, we recommend using the [SdkMan tool][6] fo
 Once the SdkMan tool [installed][7], follow the instructions on [this page][8] to install the JDK 17.
 
 
+## Installation
+
+To use this starter project:
+
+- Click on the [`Use this template` button][9]
+- Fill out the details of your new project
+- Then click on `Create repository from template`
+
+![Create repository from template](./docs/create-project-from-template.png)
+
+## Development
+
+#### <u>Clone your repository</u>
+
+Once your new repository created, clone it locally:
+- replace `${your-username}` with your GitHub username
+- replace `${repository-name}` with the repository name you created above
+
+```bash
+git clone git@github.com:${your-username}/${repository-name}.git
+cd ${repository-name}
+```
+
+#### <u>Install dependencies</u>
+
+Next, install the project dependencies and validate your project by running the following command at the root of your project:
+
+```bash
+./mvnw clean validate
+```
+
+If you are on a Windows machine, that will be:
+
+```bash
+mvnw clean validate
+```
+
+You should see the following console output:
+
+```bash
+$ ./mvnw clean validate
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< com.codingblackfemales:shopping-basket-kata >---------------
+[INFO] Building shopping-basket-kata 1.0.0
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ shopping-basket-kata ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.155 s
+[INFO] Finished at: 2022-09-14T00:43:32+01:00
+[INFO] ------------------------------------------------------------------------
+
+```
+
+#### <u>Example</u>
+
+In my case, the above steps would look like the following:
+
+```bash
+git clone git@github.com:SolangeUG/shopping-basket-kata.git
+cd shopping-basket-kata
+./mvnw clean validate
+```
+
+## Next steps
+
+Once the project setup completed:
+- update the description of your repository to match that of the kata
+- execute the following command to run tests
+
+```bash
+./mvnw clean test
+```
+
+Enjoy working on your kata! :smiley:
+
+
 [1]: https://www.java.com/en/download/help/whatis_java.html
 [2]: https://www.ibm.com/cloud/blog/jvm-vs-jre-vs-jdk
 [3]: https://junit.org/junit5/
@@ -50,3 +131,4 @@ Once the SdkMan tool [installed][7], follow the instructions on [this page][8] t
 [6]: https://sdkman.io
 [7]: https://sdkman.io/install
 [8]: https://sdkman.io/jdks#zulu
+[9]: https://github.com/CodingBlackFemales/tdd-java-starter/generate
