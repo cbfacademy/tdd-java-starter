@@ -121,6 +121,7 @@ cd shopping-basket-kata
 
 Once the project setup completed:
 - update the description of your repository to match that of the kata
+- update the `artifactId`, and the project `name` in the `pom.xml` file to match the name of the kata
 - execute the following command to run tests
 
 ```bash
