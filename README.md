@@ -7,6 +7,13 @@
 
 A kata starter project (skeleton) to practice test-driven development.
 
+This short guide describes:
+
+- [Tools you'll need to get started][10]
+- [How to use this repository template][11]
+- [How to set up your local kata project][12]
+- [How to get started with your kata][13]
+
 ## Prerequisites
 
 This starter project uses the [Java][1] programming language.
@@ -132,3 +139,7 @@ Enjoy working on your kata! :smiley:
 [7]: https://sdkman.io/install
 [8]: https://sdkman.io/jdks#zulu
 [9]: https://github.com/CodingBlackFemales/tdd-java-starter/generate
+[10]: #prerequisites
+[11]: #installation
+[12]: #development
+[13]: #next-steps
