@@ -12,7 +12,7 @@ Here are a few katas to practice test driven development:
 
 
 [1]: https://martinfowler.com/bliki/TestDrivenDevelopment.html
-[2]: /fibonacci-number.md
-[3]: /stats-calculator.md
-[4]: /roman-numerals.md
-[5]: /shopping-basket.md
+[2]: https://github.com/CodingBlackFemales/tdd-java-starter/blob/main/docs/fibonacci-number.md
+[3]: https://github.com/CodingBlackFemales/tdd-java-starter/blob/main/docs/stats-calculator.md
+[4]: https://github.com/CodingBlackFemales/tdd-java-starter/blob/main/docs/roman-numerals.md
+[5]: https://github.com/CodingBlackFemales/tdd-java-starter/blob/main/docs/shopping-basket.md
