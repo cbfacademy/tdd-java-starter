@@ -18,7 +18,7 @@ Write a lambda function that wraps a given string in parentheses.
 
 #### <u>Exercise 4</u>
 
-Write a constructor reference that returns a new, empty StringBuilder.
+Write a constructor reference that returns a new, empty `StringBuilder`.
 
 
 #### <u>Exercise 5</u>
